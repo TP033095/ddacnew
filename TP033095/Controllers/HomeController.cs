@@ -20,11 +20,15 @@ namespace TP033095.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
             return View();
         }
 
         public ActionResult Agent()
+        {
+            return View();
+        }
+
+        public ActionResult Employee()
         {
             return View();
         }
