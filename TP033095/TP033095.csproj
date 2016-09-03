@@ -293,6 +293,7 @@
     <Content Include="Views\Yards\Details.cshtml" />
     <Content Include="Views\Yards\Edit.cshtml" />
     <Content Include="Views\Yards\Index.cshtml" />
+    <Content Include="Views\Home\Agent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

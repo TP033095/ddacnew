@@ -26,5 +26,10 @@ namespace TP033095.Controllers
 
             return View();
         }
+
+        public ActionResult Agent()
+        {
+            return View();
+        }
     }
 }
