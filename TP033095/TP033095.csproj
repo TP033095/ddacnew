@@ -294,6 +294,7 @@
     <Compile Include="Shipment.cs">
       <DependentUpon>ERD.tt</DependentUpon>
     </Compile>
+    <Compile Include="App_Start\Startup.cs" />
     <Compile Include="Utils\ConfigHelper.cs" />
     <Compile Include="Yard.cs">
       <DependentUpon>ERD.tt</DependentUpon>
