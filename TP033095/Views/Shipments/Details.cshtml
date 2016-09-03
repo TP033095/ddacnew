@@ -1,0 +1,82 @@
+﻿@model TP033095.Shipment
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Shipment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.shipmentType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipmentType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipmentInsuredValue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipmentInsuredValue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipmentWeight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipmentWeight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipmentDestination)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipmentDestination)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipmentStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipmentStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Yard.yardName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Yard.yardName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer.customerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer.customerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ship.shipName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ship.shipName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.shipmentId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
